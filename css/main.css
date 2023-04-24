@@ -26,7 +26,6 @@ a:hover {
   margin-top: 20px;
   text-align: center;
   font-weight: normal;
-
 }
 .bold{
   font-weight: bold;
@@ -42,6 +41,7 @@ a:hover {
   justify-content: space-between;
   border: 1px solid rgb(199, 192, 192);
   padding: 10px;
+  
 }
 .block3{
   border: 1px solid rgb(199, 192, 192);
@@ -50,10 +50,21 @@ a:hover {
 .img1, .img2{
   padding-right: 10px;
 }
-.bloc1{
-  display: inline-flex;
-  justify-content: space-between;
-  
+.bloc1 {
+  display: flex;
+  align-items: center;
+  justify-content: center
+
+}
+.bloc1 div:nth-child(1){
+  flex-basis: 30%;
+
+}
+.bloc1 div:nth-child(2){
+  flex-basis: 20%;
+}
+.bloc1 div:nth-child(3){
+  flex-basis: 30%;
 }
 .center{
   justify-content: center;
@@ -61,4 +72,9 @@ a:hover {
 .h4{
   margin-top: 20px;
   text-align: center;
+}
+.border1, .border2{
+  border: 1px solid rgb(199, 192, 192);
+  padding: 2px 5px;
+ 
 }
